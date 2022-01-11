@@ -319,6 +319,7 @@ button {
   justify-content: center;
   border-radius: 50%;
   color: #afb1b8;
+  margin-left: 10px;
 }
 
 .icon-svg {
