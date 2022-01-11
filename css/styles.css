@@ -218,7 +218,7 @@ button {
 }
 .advantage-after-title {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--paragrapf-color);
   max-width: 270px;
@@ -338,7 +338,6 @@ button {
 
 .customers-item + .customers-item {
   margin-left: 30px;
-  background-color: var(--accent-color);
 }
 
 .customers-link {
@@ -349,6 +348,16 @@ button {
   align-items: center;
   justify-content: center;
   color: #afb1b8;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.customers-link:hover,
+.customers-link:focus {
+  border: 1px solid var(--accent-color);
+  box-sizing: border-box;
+  border-radius: 4px;
 }
 
 .customers {
@@ -370,9 +379,9 @@ button {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.4;
-  text-align: center;
   letter-spacing: 0.03em;
   margin-bottom: 50px;
+  text-align: center;
 }
 
 /*footer*/
