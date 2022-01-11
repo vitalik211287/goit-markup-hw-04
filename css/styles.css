@@ -353,14 +353,15 @@ button {
   border-radius: 4px;
 }
 
-
+.customers-svg {
+  fill: currentColor;
+}
 
 .customers-link:hover,
 .customers-link:focus {
   border: 1px solid var(--accent-color);
-  box-sizing: border-box;
   border-radius: 4px;
-   color: var(--accent-color)
+  color: var(--accent-color);
 }
 
 .customers {
