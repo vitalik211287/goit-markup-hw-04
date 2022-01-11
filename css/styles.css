@@ -266,6 +266,7 @@ button {
   background-color: var(--background-color);
   display: flex;
   flex-direction: column;
+  width: 270px;
   align-items: stretch;
   padding-bottom: 30px;
   padding-top: 30px;
@@ -313,8 +314,8 @@ button {
 }
 
 .social-link {
-  width: 30px;
-  height: 30px;
+  width: 44px;
+  height: 44px;
   background-color: 000000;
   display: flex;
   align-items: center;
