@@ -251,6 +251,9 @@ button {
 .social-list {
   display: flex;
   justify-content: center;
+  padding-bottom: 30px;
+  padding-right: 32px;
+  padding-left: 32p;
 }
 
 .social-item + .social-item {
