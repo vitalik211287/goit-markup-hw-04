@@ -334,6 +334,47 @@ button {
   color: #ffffff;
 }
 
+/*customers*/
+
+.customers-item + .customers-item {
+  margin-left: 30px;
+  background-color: var(--accent-color);
+}
+
+.customers-link {
+  width: 170px;
+  height: 92px;
+  background-color: 000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #afb1b8;
+}
+
+.customers {
+  background-color: #ffffff;
+}
+.customers-container {
+  width: 1170px;
+  height: 184px;
+  background-color: ;
+}
+
+.cuctomers-list {
+  display: flex;
+  justify-content: center;
+}
+
+.customers-title {
+  color: var(--h-color);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
+
 /*footer*/
 .address-tittle {
   margin-bottom: 9px;
