@@ -489,7 +489,7 @@ button {
 
 .social-link-footer:hover,
 .social-link-footer:focus {
-  background-color: var(--accent-color);
+  background-color:#31d0aa;
   color: #ffffff;
 }
 
@@ -507,7 +507,7 @@ button {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: var(--accent-color);
   transition: var(--transition);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
