@@ -201,14 +201,17 @@ button {
   background: var(--h-color);
   text-align: center;
   padding: 188px 0 188px 0px;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7)),
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
     url(../images/hero.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  max-width: 1440px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .hero-title {
@@ -472,7 +475,7 @@ button {
 
 .social-link-footer:hover,
 .social-link-footer:focus {
-  background-color:#31d0aa;
+  background-color: #31d0aa;
   color: #ffffff;
 }
 
@@ -494,5 +497,3 @@ button {
   transition: var(--transition);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-
