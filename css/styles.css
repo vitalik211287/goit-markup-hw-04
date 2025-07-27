@@ -131,6 +131,7 @@ button {
   letter-spacing: 0.03em;
   color: var(--accent-color);
   margin-right: 76px;
+  
 }
 
 .header-logo-studio {
@@ -168,6 +169,7 @@ button {
   letter-spacing: 0.02em;
   color: var(--h-color);
   padding: 24px 0;
+  position: relative
 }
 
 .header-link:hover,
