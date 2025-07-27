@@ -450,8 +450,8 @@ button {
    display: flex;
   align-items: center;
 } */
-.footer-container{
-display: flex;
+.footer-container {
+  display: flex;
 }
 
 .footer-title {
@@ -467,7 +467,11 @@ display: flex;
   box-sizing: border-box;
   /* padding-top: 72px; */
   padding-bottom: 100px;
-  margin-left: 120px;
+  /* margin-left: 120px; */
+}
+
+.footer-web-studio {
+  margin-right: 120px;
 }
 .social-footer-list {
   display: flex;
