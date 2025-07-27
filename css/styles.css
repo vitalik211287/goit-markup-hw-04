@@ -173,7 +173,7 @@ button {
 }
 
 .current::after {
-  content: "  ";
+  content: '';
   display: flex;
   border-radius: 2%;
   transition: background-color 250ms linear;
