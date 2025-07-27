@@ -488,6 +488,8 @@ button {
 
 .footer-svg {
   fill: #ffffff;
+  width: 24px;
+  height: 24px;
 }
 
 .social-link-footer {
