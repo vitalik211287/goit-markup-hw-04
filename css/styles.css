@@ -167,7 +167,7 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--h-color);
+  color: var(---focus-color);
   padding: 24px 0;
   position: relative
 }
