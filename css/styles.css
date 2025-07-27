@@ -173,7 +173,7 @@ button {
 }
 
 .current {
-  color: var(--accent-color);
+  color: var(--focus-color);
 }
 
 .current::after {
