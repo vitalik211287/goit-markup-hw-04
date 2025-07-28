@@ -389,7 +389,7 @@ button {
 .social-link {
   width: 44px;
   height: 44px;
-  background-color: 000000;
+  background-color: var(--accent-color);
   display: flex;
   align-items: center;
   justify-content: center;
