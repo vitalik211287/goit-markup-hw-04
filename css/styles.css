@@ -378,16 +378,13 @@ button {
 
 /*our-team social list */
 .social-list {
-  /* padding-left: 16px;
-  padding-right: 16px; */
+  padding-left: 16px;
+  padding-right: 16px;
   display: flex;
   gap: 24px;
   justify-content: center;
   margin-top: 8px;
-}
-
-.social-item + .social-item {
-  margin-left: 10px;
+  /* width: 232px; */
 }
 
 .social-link {
@@ -404,6 +401,7 @@ button {
 
 .icon-svg {
   fill: #f4f4fd;
+  display: block;
 }
 
 .social-link:hover,
