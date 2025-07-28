@@ -468,13 +468,13 @@ button {
   letter-spacing: 0.02em;
   height: 100%;
   width: 100%;
-  padding: 63px 24px 63px 24px;
-  color: #f4f4fd;
+  padding: 40px 32px;
+  color: var(--background-color);
   background: var(--accent-color);
   position: absolute;
   top: 0;
   transform: translateY(100%);
-  transition: transform 250ms;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .container-item-img:hover .tehnokriak-text {
