@@ -476,7 +476,7 @@ button {
   height: 100%;
   width: 100%;
   padding: 40px 32px;
-  color: var(--background-color);
+  color: var(--logo-color);
   background: var(--accent-color);
   position: absolute;
   top: 0;
@@ -580,30 +580,3 @@ button {
 }
 
 
-<<<<<<< HEAD
-=======
-/*portfolio*/
-.current {
-  color: var(--accent-color);
-}
-
-.tehnokriak-text {
-  display: flex;
-  font-size: 18px;
-  line-height: 1.56;
-  letter-spacing: 0.03em;
-  height: 100%;
-  width: 100%;
-  padding: 63px 24px 63px 24px;
-  color: #ffffff;
-  letter-spacing: 0.03em;
-  background: rgba(33, 150, 243, 0.9);
-  position: absolute;
-  top: 0;
-  transform: translateY(100%);
-  transition: transform 250ms;
-}
-.container-item-img:hover .tehnokriak-text {
-  transform: translateY(0);
-}
->>>>>>> 34283707160569f21fd6d816128a4fa4a6391b5c
