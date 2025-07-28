@@ -429,6 +429,11 @@ button {
   position: relative;
 }
 
+.portfolio-card:hover{
+ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+
 /* .portfolio-list {
   display: flex;
   flex-direction: column;
@@ -568,3 +573,30 @@ button {
 }
 
 
+<<<<<<< HEAD
+=======
+/*portfolio*/
+.current {
+  color: var(--accent-color);
+}
+
+.tehnokriak-text {
+  display: flex;
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+  height: 100%;
+  width: 100%;
+  padding: 63px 24px 63px 24px;
+  color: #ffffff;
+  letter-spacing: 0.03em;
+  background: rgba(33, 150, 243, 0.9);
+  position: absolute;
+  top: 0;
+  transform: translateY(100%);
+  transition: transform 250ms;
+}
+.container-item-img:hover .tehnokriak-text {
+  transform: translateY(0);
+}
+>>>>>>> 34283707160569f21fd6d816128a4fa4a6391b5c
