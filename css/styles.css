@@ -378,6 +378,7 @@ button {
 /*our-team social list */
 .social-list {
   display: flex;
+  gap: 24px;
   justify-content: center;
 }
 
@@ -397,12 +398,12 @@ button {
 }
 
 .icon-svg {
-  fill: currentColor;
+  fill: #f4f4fd;
 }
 
 .social-link:hover,
 .social-link:focus {
-  background-color: var(--accent-color);
+  background-color: var(--focus-color);
   color: #ffffff;
 }
 
